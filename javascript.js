@@ -1,2 +1,2 @@
-<button oneclick="document.location='about.html' ">here</button>
+<button onclick="location.href='about.html'">here</button>
 
