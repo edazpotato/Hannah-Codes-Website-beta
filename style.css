@@ -64,8 +64,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 .dropdown-content {
   display: none;
   position: absolute;
-   background-color: background: rgb(255,209,247);
-background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48%, rgba(198,0,212,1) 100%);
+  background-color: background: #230c33;
   width: 100%;
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -85,8 +84,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   float: left;
   width: 10%;
   padding: 33.3px;
-  background-color: background: rgb(255,209,247);
-background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48%, rgba(198,0,212,1) 100%);
+  background-color: background: #230c33;
   height: 250px;
 
 }
