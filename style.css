@@ -14,7 +14,7 @@ body {
 background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
   color: white;
   font-size: 16px;
-display: inline-block;
+display: inline;
  width: 100%;
 }
 /* Navbar container */
