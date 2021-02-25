@@ -9,12 +9,13 @@ body {
  boarder: 2px;
 
 	
-  text-align: left;
+  text-align: right;
   background: rgb(35,12,51);
 background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
   color: white;
   font-size: 16px;
-display: inline;
+display: inline-block;
+
  width: 100%;
 }
 /* Navbar container */
@@ -165,7 +166,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #333;
+	ackground-color: background: #230c33;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
