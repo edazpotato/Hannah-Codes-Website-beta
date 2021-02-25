@@ -64,7 +64,7 @@ body {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: inline-block;
 }
 
 /* Create three equal columns that floats next to each other */
