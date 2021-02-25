@@ -10,7 +10,7 @@ body {
    background-color: background: rgb(255,209,247);
 background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48%, rgba(198,0,212,1) 100%);
   color: white;
-  font-size: 24px;
+  font-size: 16px;
 display: inline-block;
 }
 /* Navbar container */
