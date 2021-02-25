@@ -9,7 +9,7 @@
  
 </head>
  
- <body> 
+ <body onload="websiteloading()"> 
   <div class="topnav">
     <a> my dev website</a>
     <a href="index.html">Home</a>
@@ -76,5 +76,15 @@
    <footer class= "footer">
     <p> copyright hannah 2021
     </footer>
+    <script>function websiteloading() {
+      if(/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+          // true for mobile device
+          location.href="/my-Projects.html";
+        }else{
+         
+        }
+      }
+    </script>
+     </body onload="websiteloading()">
 
 </html>
