@@ -5,13 +5,13 @@ body {
 	
 }
 .header2 {
-  padding: 20px;
+  padding: 8px;
   text-align: left;
    background-color: background: rgb(255,209,247);
 background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48%, rgba(198,0,212,1) 100%);
   color: white;
   font-size: 24px;
-display: inline;
+display: inline-block;
 }
 /* Navbar container */
 .navbar {
@@ -43,6 +43,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   border: none;
   outline: none;
   color: white;
+	display: inline-block;
   padding: 14px 16px;
   background-color: inherit;
   font: inherit; /* Important for vertical align on mobile phones */
