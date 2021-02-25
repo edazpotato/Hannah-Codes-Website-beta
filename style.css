@@ -7,8 +7,8 @@ body {
 .header2 {
   padding: 8px;
   text-align: left;
-   background-color: background: rgb(255,209,247);
-background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48%, rgba(198,0,212,1) 100%);
+  background: rgb(35,12,51);
+background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
   color: white;
   font-size: 16px;
 display: inline-block;
@@ -69,8 +69,8 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 
 /* Mega Menu header, if needed */
 .dropdown-content .header {
-  background: rgb(255,209,247);
-background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48%, rgba(198,0,212,1) 100%);
+  background: rgb(35,12,51);
+background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
   padding: 2px;
   color: white;
 }
