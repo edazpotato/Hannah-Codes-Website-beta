@@ -76,7 +76,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   outline: none;
   color: white;
 	top: 10px;
-
+bottom: 20px;
 	bottom: 20px;
  margin-right: 60%;
  margin-bottom: -60px;
@@ -89,6 +89,8 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #88349d;
+  top: 10px;
+  
 }
 
 /* Dropdown content (hidden by default) */
