@@ -14,12 +14,15 @@ body {
   
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background: rgb(35,12,51);
+background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
     position: relative;
+    color: white;
   }
   
   .topnav #myLinks {
     display: none;
+    background: #333;
   }
   
   .topnav a {
@@ -31,9 +34,10 @@ body {
   }
   
   .topnav a.icon {
-    background: #333;
+    background: rgba(136,52,157,1);
     display: block;
     position: absolute;
+    margin-top: 5px;
     right: 0;
     top: 0;
   }
