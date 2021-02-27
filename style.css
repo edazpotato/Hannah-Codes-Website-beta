@@ -78,10 +78,11 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   outline: none;
   color: white;
 	
-	margin-right: 60%;
+ margin-right: 60%;
+ margin-bottom: 20px;
   padding: 1px 10px;
   background-color: inherit;
-  font: inherit; /* Important for vertical align on mobile phones */
+ 
  
 }
 
