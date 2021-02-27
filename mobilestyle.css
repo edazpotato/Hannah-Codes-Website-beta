@@ -39,12 +39,12 @@ body {
   }
   
   .topnav a:hover {
-    background-color: #f058ac;
+    background-color: #34065a;
     color: white;
   }
   
   .active {
-    background-color: #f058ac;
+    background-color: #34065a;
     color: white;
   }
   .button {
@@ -61,7 +61,7 @@ body {
       border-radius: 5px;
     }
     .button:hover {
-      background-color: #f058ac;
+      background-color: #34065a;
       color: white;
       box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
     }
