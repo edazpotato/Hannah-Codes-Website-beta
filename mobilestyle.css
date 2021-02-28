@@ -101,4 +101,15 @@ background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%)
       border-radius: 1px;
 }
 
-
+@media (prefers-color-scheme: dark) {
+	body .mobile-container {
+	  background-color: black;
+	  color: white;
+	}
+}
+@media (prefers-color-scheme: dark) {
+	body {
+	  background-color: black;
+	  color: white;
+	}
+}

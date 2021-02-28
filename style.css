@@ -45,10 +45,8 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
   }
 
-.dark-mode {
-	background-color: black;
-	color: white;
-  }
+
+  
 
 /* Links inside the navbar */
 .navbar a {
@@ -64,7 +62,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 
 /* The dropdown container */
 .dropdown {
-  float: left;
+  float: center;
   overflow: hidden;
 }
 
@@ -80,7 +78,7 @@ bottom: 20px;
 	bottom: 20px;
  margin-right: 60%;
  margin-bottom: -60px;
-  padding: 1px 10px;
+  padding: 1px 8px;
   background-color: inherit;
  
  
@@ -99,7 +97,7 @@ bottom: 20px;
   position: absolute;
   background-color: #230c33;
   width: 100%;
-  padding: 2px;
+  padding: 1px;
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -119,7 +117,7 @@ bottom: 20px;
   float: left;
   width: 10%;
  
-  padding: 33.3px;
+  padding: 30px;
   background-color:  #230c33;
   height: 300px;
 
@@ -129,7 +127,7 @@ bottom: 20px;
 .column a {
   float: none;
   color: white;
-  padding: 18px;
+  padding: 12px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -244,4 +242,10 @@ bottom: 20px;
 	color: white;
 	box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
   }
-  
+
+  @media (prefers-color-scheme: dark) {
+	body {
+	  background-color: black;
+	  color: white;
+	}
+}
