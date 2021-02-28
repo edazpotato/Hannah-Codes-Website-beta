@@ -86,7 +86,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #88349d;
-  top: -10x;
+  top: 10x;
   
 }
 
@@ -105,11 +105,8 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 
 
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-  top: auto;
-}
+
+
 
 /* Create three equal columns that floats next to each other */
 .column {
