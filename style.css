@@ -73,7 +73,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 
  margin-right: 60%;
  margin-bottom: -60px;
-  padding: 1px 8px;
+  padding: 1px 6px;
   background-color: inherit;
  
  
@@ -174,14 +174,13 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 
 /* Dropdown button */
 .dropdown .dropbtn {
-	font-size: 17px;
+	font-size: 16px;
 	border: none;
 	outline: none;
 	color: white;
-	padding: 14px 16px;
+	padding: 2px 2px;
 	background-color: inherit;
-	font-family: inherit; /* Important for vertical align on mobile phones */
-	margin: 0; /* Important for vertical align on mobile phones */
+	
 	position: absolute;
 	  float: right;
 	  right: 10px;
