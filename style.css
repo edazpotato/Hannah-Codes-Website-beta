@@ -183,7 +183,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	background-color: inherit;
 	font-family: inherit; /* Important for vertical align on mobile phones */
 	margin: 0; /* Important for vertical align on mobile phones */
-	position: absolute;
+	position: fixed;
 	  float: right;
 	  right: 10px;
 	  
