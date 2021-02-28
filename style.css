@@ -60,27 +60,23 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   text-decoration: none;
 }
 
-
-
 /* Dropdown button */
 .dropdown .dropbtn {
-	text-align: auto;
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-	top: 10px;
-
- margin-right: 60%;
- margin-bottom: -60px;
-  padding: 1px 6px;
-  background-color: inherit;
- 
- 
-}
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 1px 2px;
+	background-color: inherit;
+	
+	position: absolute;
+	  float: none;
+	  text-align: right;
+	  left: 90%;
+	  top: 3.3%;
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+}.navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #88349d;
   top: 10x;
   
@@ -172,21 +168,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	overflow: hidden;
 }
 
-/* Dropdown button */
-.dropdown .dropbtn {
-	font-size: 16px;
-	border: none;
-	outline: none;
-	color: white;
-	padding: 2px 2px;
-	background-color: inherit;
-	
-	position: absolute;
-	  float: none;
-	  text-align: right;
-	  left: 90%;
-	  top: 3.3%;
-}
+
 
 
 
