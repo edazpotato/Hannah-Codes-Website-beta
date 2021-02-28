@@ -168,7 +168,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 }
 /* The dropdown container */
 .dropdown {
-	float: left;
+	float: center;
 	overflow: hidden;
 }
 
@@ -183,9 +183,9 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	
 	position: absolute;
 	  float: right;
-	  right: 10px;
 	  
-	  bottom: 480px;
+	  left: 90%;
+	  top: 4%;
 }
 
 
