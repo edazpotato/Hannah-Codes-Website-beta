@@ -9,15 +9,15 @@ body {
   padding: 13px;
   text-align: left;
   
+  box-shadow: 5px 5px 5px grey;
   background: rgb(35,12,51);
 background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
   color: white;
   font-size: 16px;
 display: block;
 margin-top: auto;
-
- width: 99%;
 }
+
 /* Navbar container */
 .navbar {
 	float: right;
@@ -137,39 +137,6 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   clear: both;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-	background-color: #333;
-	overflow: hidden;
-}
-/* Style the links inside the navigation bar */
-.topnav a {
-	float: left;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 16px 18px;
-	text-decoration: none;
-	font-size: 15px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-	background-color: #5f3e7a;
-	color: white;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-	background-color: #5f3e7a;
-	color: white;
-}
-/* The dropdown container */
-.dropdown {
-	float: center;
-	overflow: hidden;
-}
-
-
 
 
 
@@ -190,6 +157,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	 padding: 3px;
 	 font-size: 18px;
 	 color: white
+	 
 
   }
   .aside {
@@ -224,5 +192,6 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	body {
 	  background-color: #222222;
 	  color: white;
+	  box-shadow: rgba(255, 255, 255, 0.541);
 	}
 }
