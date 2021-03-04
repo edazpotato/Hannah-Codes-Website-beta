@@ -31,12 +31,12 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	background-color: #333; /* Green */
 	border: none;
 	color: white;
-	padding: 10px 20px;
+	padding: 10px 40px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 20px;
-	margin-top: 20px;
+	margin-top: 50px;
 	margin-bottom: 20px;
 	border-radius: 5px;
   }
@@ -114,6 +114,17 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   height: 300px;
 
 }
+.columnfooter {
+	float: left;
+	width: 10%;
+   display: block;
+   padding: 10px;
+	background-color: inherit;
+	height: 100px;
+	margin-top: -30px;
+	text-align: left;
+	
+  }
 
 /* Style links inside the columns */
 .column a {
@@ -123,12 +134,27 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   text-decoration: none;
   display: block;
   text-align: left;
+  
 }
+/* Style links inside the columns */
+.columnfooter a {
+	
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	font-size: 14px;
+  }
 
 /* Add a background color on hover */
 .column a:hover {
   background-color: #34065a;
 }
+/* Add a background color on hover */
+.columnfooter a:hover {
+	background-color: #34065a;
+  }
 
 /* Clear floats after the columns */
 .row:after {
@@ -154,9 +180,12 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 .footer {
 	text-align: center;
 	background-color: #333;
-	 padding: 3px;
+	height: 250px;
+	 padding:12px;
 	 font-size: 18px;
+	 bottom: 60px;
 	 color: white
+
 	 
 
   }
