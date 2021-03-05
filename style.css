@@ -28,21 +28,21 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 }
 
 .buttondm{
-	background-color: #333; /* Green */
+	background-color: #DEE4E7;
 	border: none;
-	color: white;
-	padding: 10px 40px;
+	color: black;
+	padding: 10px 50px;
 	text-align: center;
 	text-decoration: none;
-	display: inline-block;
+	display: block;
 	font-size: 20px;
-	margin-top: 50px;
-	margin-bottom: 20px;
-	border-radius: 5px;
+	margin-top: 100px;
+	margin-left: 550px;
+	border-radius: 1px;
   }
   .buttondm:hover {
-	background-color: #34065a;
-	color: white;
+	background-color: #dcc0f3;
+	color: black;
 	box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
   }
 
@@ -139,12 +139,12 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 /* Style links inside the columns */
 .columnfooter a {
 	
-	color: white;
+	color: black;
 	padding: 8px;
 	text-decoration: none;
 	display: block;
 	text-align: left;
-	font-size: 14px;
+	font-size: 12px;
   }
 
 /* Add a background color on hover */
@@ -153,7 +153,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 }
 /* Add a background color on hover */
 .columnfooter a:hover {
-	background-color: #34065a;
+	background-color: #dcc0f3;
   }
 
 /* Clear floats after the columns */
@@ -179,12 +179,12 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 
 .footer {
 	text-align: center;
-	background-color: #333;
-	height: 250px;
+	background-color:#DEE4E7;
+	height: 270px;
 	 padding:12px;
 	 font-size: 18px;
 	 bottom: 60px;
-	 color: white
+	 color: black;
 
 	 
 
@@ -199,9 +199,9 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	 
 }
 .button {
-	background-color: #333; /* Green */
+	background-color: #ffffff; /* Green */
 	border: none;
-	color: white;
+	color: black;
 	padding: 10px 190px;
 	text-align: center;
 	text-decoration: none;
@@ -223,4 +223,66 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	  color: white;
 	  box-shadow: rgba(255, 255, 255, 0.541);
 	}
-}
+	.button {
+		background-color: #333; /* Green */
+		border: none;
+		color: white;
+		padding: 10px 190px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border-radius: 5px;
+	  }
+	  .button:hover {
+		background-color: #34065a;
+		color: white;
+		box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+	  }
+	.buttondm{
+		background-color: #333; /* Green */
+		border: none;
+		color: white;
+		padding: 5px 10px;
+		text-align: center;
+		text-decoration: none;
+		display: block;
+		font-size: 20px;
+		margin-top: 100px;
+		margin-left: 600px;
+		border-radius: 1px;
+	  }
+	  .buttondm:hover {
+		background-color: #34065a;
+		color: white;
+		box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+	  }
+    .columnfooter a {
+	
+		color: white;
+		padding: 8px;
+		text-decoration: none;
+		display: block;
+		text-align: left;
+		font-size: 12px;
+	  }
+	  .columnfooter a:hover {
+		background-color: #34065a;
+	  }
+	.footer {
+			text-align: center;
+			background-color: #333;
+			height: 270px;
+			 padding:12px;
+			 font-size: 18px;
+			 bottom: 60px;
+			 color: white
+		
+			 
+		
+		  }
+	}
+     
+
