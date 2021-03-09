@@ -36,20 +36,15 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	margin-left: -3px;
 	top: 245px;
   }
- 
-.buttondm{
-	background-color: #DEE4E7; /* Green */
-		border: none;
-		color: black;
-		padding: 5px 10px;
-		text-align: center;
-		text-decoration: none;
-		display: block;
-		font-size: 20px;
-		margin-top: 100px;
-		margin-left: 600px;
-		border-radius: 1px;
+.footercrtext{
+	font-size: 20px;
+		margin-top: 150px;
+	width: 95%;
+		
   }
+
+
+  
   .space {
 	padding: 2px;
 	  background-color: #DEE4E7;
@@ -58,7 +53,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   .imgpfp {
 	  border-radius: 50%;
 	  display: inline-block;
-	  padding: 0.2%;
+	  padding: 2%;
   }
 .pfpnamemc {
 		display: inline-block;
@@ -70,18 +65,40 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	}  
 	.pfpname {
 		display: inline-block;
-		text-align: left;
-		padding: 1.8%;
+		text-align: center;
+		
+		padding: 4.7%;
+		
 		
   
 	}
-  
+  .pfpnamer2 {
+		display: inline-block;
+		text-align: center;
+		
+		
+	  padding-left: 5%;
+}
+.pfpnamer3 {
+		display: inline-block;
+		text-align: center;
+		
+		
+	  padding-left: 11.5%;
+}
+.pfpnamer4 {
+		display: inline-block;
+		text-align: center;
+		
+		
+	  padding-left: 10%;
+}
  .pfptext {
 		text-align: center;
 		color: black;
 		top: 20;
   }
-  .buttondm:hover {
+  .imgpfp:hover {
 	background-color: #dcc0f3;
 	color: black;
 	box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
@@ -101,21 +118,24 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   padding: 14px 16px;
   text-decoration: none;
 }
-
+.menuimg{
+	border-radius: 50%;
+}
 /* Dropdown button */
 .dropdown .dropbtn {
 	font-size: 16px;
 	border: none;
 	outline: none;
 	color: white;
-	padding: 1px 2px;
+	padding: 1px 1px;
 	background-color: inherit;
 	
 	position: absolute;
 	  float: none;
 	  text-align: right;
-	  left: 90%;
-	  top: 3.3%;
+	text-align: center;
+	  left: 95%;
+	  top: 2%;
 
 /* Add a red background color to navbar links on hover */
 }.navbar a:hover, .dropdown:hover .dropbtn {
