@@ -8,7 +8,6 @@ body {
 .header2 {
   padding: 13px;
   text-align: left;
-  
   box-shadow: 5px 5px 5px grey;
   background: rgb(35,12,51);
 background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
@@ -27,18 +26,60 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   font-family: 'Poppins', sans-serif;
 }
 
+
+  
+.vl {
+	border-left: 1px solid rgba(12, 1, 19, 0);
+	height: 700px;
+	position: absolute;
+	left: 50%;
+	margin-left: -3px;
+	top: 245px;
+  }
+ 
 .buttondm{
-	background-color: #DEE4E7;
-	border: none;
-	color: black;
-	padding: 10px 50px;
-	text-align: center;
-	text-decoration: none;
-	display: block;
-	font-size: 20px;
-	margin-top: 100px;
-	margin-left: 550px;
-	border-radius: 1px;
+	background-color: #DEE4E7; /* Green */
+		border: none;
+		color: black;
+		padding: 5px 10px;
+		text-align: center;
+		text-decoration: none;
+		display: block;
+		font-size: 20px;
+		margin-top: 100px;
+		margin-left: 600px;
+		border-radius: 1px;
+  }
+  .space {
+	padding: 2px;
+	  background-color: #DEE4E7;
+	  box-shadow: 5px 5px 5px grey;
+  }
+  .imgpfp {
+	  border-radius: 50%;
+	  display: inline-block;
+	  padding: 0.2%;
+  }
+.pfpnamemc {
+		display: inline-block;
+		text-align: left;
+		padding: 1.2%;
+		font-size: 14;
+		
+  
+	}  
+	.pfpname {
+		display: inline-block;
+		text-align: left;
+		padding: 1.8%;
+		
+  
+	}
+  
+ .pfptext {
+		text-align: center;
+		color: black;
+		top: 20;
   }
   .buttondm:hover {
 	background-color: #dcc0f3;
@@ -156,16 +197,6 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	background-color: #dcc0f3;
   }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-
-
 
 
 /* Add a black background color to dropdown links on hover */
@@ -221,7 +252,27 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	body {
 	  background-color: #222222;
 	  color: white;
-	  box-shadow: rgba(255, 255, 255, 0.541);
+	  box-shadow: #000;
+	}
+	.header2 {
+		padding: 13px;
+		text-align: left;
+		box-shadow: 5px 5px 5px #000;
+		background: rgb(35,12,51);
+	  background: linear-gradient(90deg, rgba(35,12,51,1) 0%, rgba(136,52,157,1) 100%);
+		color: white;
+		font-size: 16px;
+	  display: block;
+	  margin-top: auto;
+	  }
+	.space {
+		padding: 2px;
+		background-color: #333;
+		box-shadow: 5px 5px 5px rgb(0, 0, 0);
+	}
+   .pfptext {
+		  text-align: center;
+		  color: white;
 	}
 	.button {
 		background-color: #333; /* Green */
