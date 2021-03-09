@@ -267,7 +267,24 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	color: white;
 	box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
   }
-
+  @media only screen and (max-width: 1500px) {
+	  /* Dropdown button */
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 1px 1px;
+	background-color: inherit;
+	
+	position: absolute;
+	  float: none;
+	  text-align: right;
+	text-align: center;
+	  left: 92%;
+	  top: 2.5%;
+	}
+  }
   @media (prefers-color-scheme: dark) {
 	body {
 	  background-color: #222222;
