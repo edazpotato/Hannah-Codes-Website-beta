@@ -99,9 +99,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 		top: 20;
   }
   .imgpfp:hover {
-	background-color: #dcc0f3;
-	color: black;
-	box-shadow: 0 9px 10px 0 rgba(0,0,0,0.24), 0 6px 16px 0 rgba(0,0,0,0.19);
+		box-shadow: 0 10px 30px 0 #DEE4E7, 0 10px 30px rgb(234, 0, 255);
   }
 
 
@@ -291,7 +289,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 		display: inline-block;
 		text-align: center;
 		
-		padding: 3.7%;
+		padding: 3.5%;
 		
 		
   
@@ -303,6 +301,11 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	  color: white;
 	  box-shadow: #000;
 	}
+	.imgpfp:hover {
+		background-color: #00000000;
+		color: black;
+		box-shadow: 0 10px 30px 0 #333, 0 10px 30px rgb(235, 50, 164);
+	  }
 	.header2 {
 		padding: 13px;
 		text-align: left;
