@@ -101,7 +101,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   .imgpfp:hover {
 	background-color: #dcc0f3;
 	color: black;
-	box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 9px 10px 0 rgba(0,0,0,0.24), 0 6px 16px 0 rgba(0,0,0,0.19);
   }
 
 
@@ -284,6 +284,18 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	  left: 92%;
 	  top: 2.3%;
 	}
+	.imgpfp {
+	width:8%; height:8%
+	}
+	.pfpname {
+		display: inline-block;
+		text-align: center;
+		
+		padding: 3.7%;
+		
+		
+  
+	}
   }
   @media (prefers-color-scheme: dark) {
 	body {
@@ -329,23 +341,12 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 		color: white;
 		box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
 	  }
-	.buttondm{
-		background-color: #333; /* Green */
-		border: none;
-		color: white;
-		padding: 5px 10px;
-		text-align: center;
-		text-decoration: none;
-		display: block;
-		font-size: 20px;
-		margin-top: 100px;
-		margin-left: 600px;
-		border-radius: 1px;
-	  }
+	
 	  .buttondm:hover {
 		background-color: #34065a;
+		padding: 1px;
 		color: white;
-		box-shadow: 0 9px 16px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+		box-shadow: 0 9px 9px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
 	  }
     .columnfooter a {
 	
