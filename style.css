@@ -72,6 +72,9 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 		
   
 	}
+	.abouttext {
+		padding-left: 0.7%;
+	}
   .pfpnamer2 {
 		display: inline-block;
 		text-align: center;
