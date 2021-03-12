@@ -26,7 +26,10 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   font-family: 'Poppins', sans-serif;
 }
 
-
+.picrew {
+	width:450px; height:450px;
+	padding: 0.7%;
+}
   
 .vl {
 	border-left: 1px solid rgba(12, 1, 19, 0);
@@ -52,8 +55,11 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
   }
   .imgpfp {
 	  border-radius: 50%;
+	  border-color: inherit;
 	  display: inline-block;
 	  padding: 2%;
+	  width: 9%;
+	 height:8%;
   }
 .pfpnamemc {
 		display: inline-block;
@@ -72,8 +78,12 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 		
   
 	}
-	.abouttext {
+	.hometext {
 		padding-left: 0.7%;
+	}
+.abouttext {
+		padding-left:  0.7%;
+	padding-bottom: 0.2%;
 	}
   .pfpnamer2 {
 		display: inline-block;
