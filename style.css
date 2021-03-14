@@ -28,6 +28,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 .imgdisplay{
 	display: flex;
 	background-color: rgb(240, 201, 225);
+	padding-left: 0.7%;
 }
 .hometext {
 	padding-left: 0.7%;
@@ -314,6 +315,24 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	  left: 92%;
 	  top: 2.3%;
 	}
+	.imgdisplay{
+		display: flex;
+		background-color: rgb(240, 201, 225);
+		padding-left: 0.5%;
+	}
+	.hometext {
+		padding-left: 0.5%;
+		float: left;
+		margin-left: -97%;
+		margin-top: 10px;
+	}
+	.picrew {
+		width:450px; height:450px;
+		padding: 0.5%;
+		
+		margin-left: 63%;
+		
+	}
 	
 	.imgpfp {
 	width:8%; height:8%
@@ -337,6 +356,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	.imgdisplay{
 		display: flex;
 		background-color: rgb(146, 105, 180);
+		padding-left: 0.7%;
 	}
 	.hometext {
 		padding-left: 0.7%;
