@@ -25,10 +25,29 @@ margin-top: auto;
 background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48%, rgba(198,0,212,1) 100%);
   font-family: 'Poppins', sans-serif;
 }
-
+.imgdisplay{
+	display: flex;
+	background-color: rgb(240, 201, 225);
+}
+.hometext {
+	padding-left: 0.7%;
+	float: left;
+	margin-left: -97%;
+	margin-top: 10px;
+}
 .picrew {
 	width:450px; height:450px;
 	padding: 0.7%;
+	
+	margin-left: 62%;
+	
+}
+.picrew2 {
+	width:450px; height:450px;
+	padding: 0.7%;
+	
+	
+	
 }
   
 .vl {
@@ -295,6 +314,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	  left: 92%;
 	  top: 2.3%;
 	}
+	
 	.imgpfp {
 	width:8%; height:8%
 	}
@@ -313,6 +333,17 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	  background-color: #222222;
 	  color: white;
 	  box-shadow: #000;
+	}
+	.imgdisplay{
+		display: flex;
+		background-color: rgb(146, 105, 180);
+	}
+	.hometext {
+		padding-left: 0.7%;
+		float: left;
+		margin-left: -97%;
+		margin-top: 10px;
+		
 	}
 	.imgpfp:hover {
 		background-color: #00000000;
