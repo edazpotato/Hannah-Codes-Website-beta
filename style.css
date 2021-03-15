@@ -367,7 +367,12 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	}
 	.imgdisplay{
 		display: flex;
-		background-color: rgb(146, 105, 180);
+		background-color: rgb(72, 40, 99);
+		padding-left: 0.7%;
+	}
+	.imgdisplay2{
+		display: flex;
+		background-color: rgb(56, 46, 71);
 		padding-left: 0.7%;
 	}
 	.hometext {
