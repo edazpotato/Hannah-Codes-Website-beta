@@ -30,10 +30,21 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	background-color: rgb(240, 201, 225);
 	padding-left: 0.7%;
 }
+.imgdisplay2{
+	display: flex;
+	background-color: rgb(218, 199, 247);
+	padding-left: 0.7%;
+}
 .hometext {
 	padding-left: 0.7%;
 	float: left;
 	margin-left: -97%;
+	margin-top: 10px;
+}
+.hometext2 {
+	padding-left: 0.5%;
+	float: right;
+	margin-left: 35%;
 	margin-top: 10px;
 }
 .picrew {
@@ -284,13 +295,14 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	background-color: #ffffff; /* Green */
 	border: none;
 	color: black;
-	padding: 10px 190px;
+	padding: 10px 180px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 20px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 60px;
+	margin-left: 10px;
+	margin-bottom: 10px;
 	border-radius: 5px;
   }
   .button:hover {
@@ -365,7 +377,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 		margin-top: 10px;
 		
 	}
-	.imgpfp:hover {
+		.imgpfp:hover {
 		background-color: #00000000;
 		color: black;
 		box-shadow: 0 10px 30px 0 #333, 0 10px 30px rgb(235, 50, 164);
@@ -394,13 +406,13 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 		background-color: #333; /* Green */
 		border: none;
 		color: white;
-		padding: 10px 190px;
+		padding: 10px 180px;
 		text-align: center;
 		text-decoration: none;
 		display: inline-block;
 		font-size: 20px;
-		margin-top: 20px;
-		margin-bottom: 20px;
+		margin-top: 60px;
+		margin-bottom: 10px;
 		border-radius: 5px;
 	  }
 	  .button:hover {
