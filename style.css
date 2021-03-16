@@ -51,7 +51,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	width:450px; height:450px;
 	padding: 0.7%;
 	
-	margin-left: 62%;
+	margin-left: 73%;
 	
 }
 .picrew2 {
@@ -77,6 +77,9 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 		
   }
 
+a {
+	text-decoration: none;
+}
 
   
   .space {
@@ -91,6 +94,7 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	  padding: 2%;
 	  width: 9%;
 	 height:8%;
+	  text-decoration: none;
   }
 .pfpnamemc {
 		display: inline-block;
@@ -347,7 +351,8 @@ background: linear-gradient(90deg, rgba(255,209,247,1) 0%, rgba(172,17,147,1) 48
 	}
 	
 	.imgpfp {
-	width:8%; height:8%
+	width:8%; height:8%;
+	text-decoration: none;
 	}
 	.pfpname {
 		display: inline-block;
