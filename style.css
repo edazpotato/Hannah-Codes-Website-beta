@@ -342,6 +342,12 @@ a {
 		margin-left: -97%;
 		margin-top: 10px;
 	}
+	  .hometext2 {
+	padding-left: 0.5%;
+	float: right;
+	margin-left:10%;
+	margin-top: 10px;
+}
 	.picrew {
 		width:440px; height:440px;
 		padding: 0.5%;
