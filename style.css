@@ -17,6 +17,9 @@ display: block;
 margin-top: auto;
 }
 
+.text404{
+	margin-left: 2%;
+}
 /* Navbar container */
 .navbar {
 	float: right;
