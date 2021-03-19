@@ -289,6 +289,10 @@ a {
 	 
 
   }
+  .termtext {
+	  padding-left: 0.7%;
+	  padding-right: 0.7%;
+  }
   .aside {
 	  
 	  position: absolute;
