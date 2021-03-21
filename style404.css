@@ -1,5 +1,5 @@
 body {
-	 background-image: url('404background.jpg');
+	 background-image: url('404background8.jpg');
 	background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -149,9 +149,14 @@ a {
 }
  .pfptext {
 		text-align: center;
-		color: black;
+		color: white;
 		top: 20;
   }
+  .pfptext2 {
+	text-align: center;
+	color: black;
+	top: 20;
+}
   .imgpfp:hover {
 		box-shadow: 0 10px 30px 0 #DEE4E7, 0 10px 30px rgb(234, 0, 255);
   }
@@ -382,7 +387,7 @@ a {
   }
   @media (prefers-color-scheme: dark) {
 	body {
-	  background-image: url('404background5.jpg');
+	  background-image: url('404background9.jpg');
 		
 	background-repeat: no-repeat;
   background-attachment: fixed;
@@ -435,6 +440,10 @@ a {
 		  text-align: center;
 		  color: white;
 	}
+	.pfptext2 {
+		text-align: center;
+		color: white;
+  }
 	.button {
 		background-color: #333; /* Green */
 		border: none;
